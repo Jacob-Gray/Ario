@@ -28,6 +28,7 @@ public class Controller implements Initializable {
 
         Editor ed = new Editor();
 
+
         input.textProperty().addListener((observableValue, s, s2) -> {
 
             display.getChildren().clear();
